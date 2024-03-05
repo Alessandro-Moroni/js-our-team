@@ -1,3 +1,5 @@
+const output = document.querySelector('.output')
+
 const people = [
   {
     img: 'img/angela-caroll-chief-editor.jpg',
@@ -30,3 +32,7 @@ const people = [
     work: 'Graphic Designer'
   }
 ]
+
+for(let person of people){
+  console.log(person);
+}
